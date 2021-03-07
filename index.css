@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    font-family: serif;
+}
+ul li{
+    padding: 0 13px;
+}
+.section-selection .sel{
+    margin: 10px 20px;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) {
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 00px;
+        margin-top: 50px;
+        z-index: 999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 88%;
+        height: 75%;
+        background-color: rgb(252, 112, 112);
+        border-radius: 50%;
+        margin-left: 150px;
+        margin-top: 50px;
+        top: 70px;
+        left: -80px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-selection .btn-selec{
+        margin-top: 10px;
+    }
+ }
+@media (min-width: 576px) {
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 00px;
+        margin-top: 50px;
+        z-index: 999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 88%;
+        height: 75%;
+        background-color: rgb(252, 112, 112);
+        border-radius: 50%;
+        margin-left: 150px;
+        margin-top: 50px;
+        top: 70px;
+        left: -80px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-selection .btn-selec{
+        margin-top: 5px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 00px;
+        margin-top: 50px;
+        z-index: 999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 85%;
+        height: 75%;
+        background-color: rgb(252, 112, 112);
+        border-radius: 50%;
+        margin-left: 210px;
+        margin-top: 50px;
+        top: 70px;
+        left: -100px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-selection .btn-selec{
+        margin-top: 5px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .img-content img{
+        width: 110%;
+        height: 110%;
+        margin-left: -100px;
+        margin-top: -50px;
+        z-index: 999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 95%;
+        height: 90%;
+        background-color: rgb(252, 112, 112);
+        border-radius: 50%;
+        margin-left: 60px;
+        top: 20px;
+        left: -100px;
+    }
+    .section-banner .text-content{
+        text-align: left;
+    }
+    .section-selection .btn-selec{
+        margin-top: 5px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .img-content img{
+        width: 110%;
+        height: 110%;
+        margin-left: -160px;
+        margin-top: -50px;
+        z-index: 999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 98%;
+        height: 90%;
+        background-color: rgb(252, 112, 112);
+        border-radius: 50%;
+        top: 20px;
+        margin: 0;
+        left: -80px;
+    }
+    .section-banner .text-content{
+        text-align: left;
+    }
+    .section-selection .btn-selec{
+        margin-top: 7px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
